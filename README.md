@@ -1,4 +1,4 @@
-# 🚗 Vehicle Insurance Cross-Sell Prediction — MLOps Project
+# Vehicle Insurance Cross-Sell Prediction — MLOps Project
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green?logo=fastapi)](https://fastapi.tiangolo.com/)
@@ -10,7 +10,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Problem Statement](#-problem-statement)
@@ -31,7 +31,7 @@
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
 This is an **end-to-end MLOps project** built in the **Vehicle Insurance domain**. It predicts whether a health-insured customer would be interested in purchasing **vehicle insurance** from the same company — a classic **cross-sell prediction** problem.
 
@@ -39,7 +39,7 @@ The project follows a production-grade MLOps workflow, covering everything from 
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 An insurance company has customers with existing health insurance policies. The company now wants to predict whether these customers would also be interested in their **Vehicle Insurance** product.
 
@@ -52,7 +52,7 @@ By predicting customer interest, the company can:
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset contains customer demographics and policy information:
 
@@ -73,7 +73,7 @@ The dataset contains customer demographics and policy information:
 
 ---
 
-## 🏗️ ML Pipeline Architecture
+## ML Pipeline Architecture
 
 The project implements a **modular ML pipeline** with the following sequential stages:
 
@@ -126,7 +126,7 @@ MongoDB Atlas (Raw Data)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |---|---|
@@ -145,7 +145,7 @@ MongoDB Atlas (Raw Data)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MLops-project1---Vehicle-Insurance-Domain/
@@ -205,7 +205,7 @@ MLops-project1---Vehicle-Insurance-Domain/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -289,7 +289,7 @@ export AWS_SECRET_ACCESS_KEY="YOUR_SECRET_KEY"
 
 ---
 
-## ▶️ Running the Application
+## Running the Application
 
 **Start the FastAPI server locally:**
 ```bash
@@ -331,9 +331,9 @@ GET/POST http://localhost:5000/
 
 The project uses **GitHub Actions** for automated CI/CD. On every push to the main branch:
 
-1. 🐳 **Docker image** is built from the `Dockerfile`
-2. 📦 Image is pushed to **AWS ECR** (Elastic Container Registry)
-3. 🚀 The updated container is **deployed to AWS EC2** via a self-hosted runner
+1.  **Docker image** is built from the `Dockerfile`
+2.  Image is pushed to **AWS ECR** (Elastic Container Registry)
+3.  The updated container is **deployed to AWS EC2** via a self-hosted runner
 
 ### GitHub Secrets Required
 
@@ -348,7 +348,7 @@ Add these secrets under **Settings → Secrets and Variables → Actions**:
 
 ---
 
-## ☁️ Deployment on AWS EC2
+##  Deployment on AWS EC2
 
 **1.** Launch an **EC2 Ubuntu Server 24.04** instance (t2.medium, 30 GB storage).
 
@@ -380,18 +380,18 @@ http://<EC2-PUBLIC-IP>:5080/train
 
 ---
 
-## 👤 Author
+## Author
 
 **Nitesh Raghuwanshi**
-- 📧 niteshraghuwanshi68@gmail.com
-- 🐙 [GitHub](https://github.com/Nitesh-raghu45)
+-  niteshraghuwanshi68@gmail.com
+-  [GitHub](https://github.com/Nitesh-raghu45)
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> ⭐ If you found this project helpful, please consider giving it a star on GitHub!
+>  If you found this project helpful, please consider giving it a star on GitHub!
